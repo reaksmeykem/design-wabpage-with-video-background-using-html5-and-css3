@@ -1,0 +1,75 @@
+.container-wrapper{
+    padding: 20px 120px;
+    width: 100%;
+}
+.navbar-container ul{
+    display: flex;
+    padding:0;
+    margin:0;
+}
+.navbar-container ul li{
+    list-style-type: none;
+}
+.navbar-container ul li a{
+    display: block;
+    padding: 15px;
+    margin-left:10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar-container ul li:last-child a{
+    background-color: #fff;
+    color: #000;
+    border-radius: 8px;
+}
+.logo{
+    padding: 12px 0;
+}
+.trending-container ul{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    padding:0;
+    margin:0;
+}
+.trending-container ul li{
+    list-style-type: none;
+}
+.trending-container ul li a{
+    display: block;
+    color: #fff;
+    padding-right:15px;
+    text-decoration: none;
+    outline: transparent;
+    background-color: transparent;
+    margin: 10px 0;
+    font-weight: 600;
+    text-shadow:1px 1px 5px #555;
+}
+.trending-container ul li:first-child a{
+    color: #555;
+}
+.trending-container ul li a:hover{
+    opacity: .7;
+}
+
+/* video background overlay */
+.video-overlay-background {
+    width: 1920px;
+    height: 580px;
+    position: relative;
+    z-index: 0;
+    overflow:hidden;
+}
+.video-overlay-background iframe{
+    width: 1920px;
+    height: 1080px;
+    pointer-events: none;
+    display: flex;
+    margin-top: -55px;
+}
+.content-wrapper{
+    position: absolute;
+    top: 20px;
+}
